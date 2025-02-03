@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Island Moments';
+    src: url('IslandMoments.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
     background-color: azure;  /*color de todo el fondo*/
     height: 100vh;
+    min-width: 400px;
 }
 
 #header{
@@ -19,7 +35,37 @@ body{
   align-items: center;
   padding-inline: 20px;
   font-family: "Italiana", serif;
-  font-weight: 700;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-inline: 20px;
+}
+
+.header h2{
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-shadow:  
+      -1px -1px 0 rgb(48, 68, 83, 100%),  
+       1px -1px 0 rgb(48, 68, 83, 100%),  
+      -1px  1px 0 rgb(48, 68, 83, 100%),  
+       1px  1px 0 rgb(48, 68, 83, 100%); /* Simula un borde blanco */
+}
+
+.header ul li a{
+    color: rgb(48, 68, 83, 100%);
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .container{
@@ -31,7 +77,11 @@ body{
     height: 80vh;
 }
 
-.cuerpo{
+
+
+
+/*codigop que hace parte unicamente aa la pagina de ingresar cuenta*/
+.cuerpo_inicio{
     background-color: rgba(186, 199, 208, 100);
     display: flex;
     flex-direction: column;
@@ -43,7 +93,9 @@ body{
 }
 
 .title{
-    font-family: "Inter", serif;}
+    font-family: "Inter", serif;
+    text-align: center;
+}
 
 .cuenta, form{
     display: inline-flex;
@@ -52,10 +104,93 @@ body{
     width: 22rem;
 }
 
+.bton_ingresar{
+    background-color: rgba(8, 10, 9, 0.13);
+    padding: 8px;
+    border-radius: 10%;
+}
+
+.bton{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 100% 100%;
+}
+
+svg{
+    width: 4em;
+    height: 4em;
+    padding: 5px;
+}
+
 .sesion-ops{
     width:20rem ;
     display: flex;
     justify-content: space-between;
+}
+
+/*qui termina el codigo que pertenece unimente a la pagina para ingreasr cuenta o inicio*/
+
+.cuerpo_principal{
+    background-color: rgba(186, 199, 208, 100);
+    height: 100%;
+    width: 100%;
+}
+
+.principal{
+    background-color: aqua;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal h3{
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.bienvenido{
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.bienvenido_hijo{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+}
+
+.bienvenido_hijo h1{
+    font-family: 'Island Moments', cursive;
+}
+
+.calendario_consultar{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.calendario_consultar input{
+    width: 15rem;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    padding: 1em;
+}
+
+.calendario_consultar button {
+    padding: 1em;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
 }
 
 
