@@ -131,15 +131,15 @@ svg{
 /*qui termina el codigo que pertenece unimente a la pagina para ingreasr cuenta o inicio*/
 
 .cuerpo_principal{
-    background-color: rgba(186, 199, 208, 100);
     height: 100%;
     width: 100%;
 }
 
 .principal{
-    background-color: aqua;
+    background-image: url(img/hoteles-01.webp);
+    background-size: cover;
     width: 100%;
-    height: 40rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -150,7 +150,7 @@ svg{
 }
 
 .bienvenido{
-    height: 80%;
+    height: 70%;
     display: flex;
     align-items: center;
 }
@@ -167,12 +167,16 @@ svg{
 
 .calendario_consultar{
     width: 100%;
-    height: 30%;
-    background-color: rgba(0, 0, 0, 0.637);
+    min-height: 40%;
+    background-color: rgba(0, 0, 0, 0.759);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 5%;
+    background-size: 100%;
+    flex-wrap: wrap;
+    color: aliceblue;
+    
 }
 
 .calendario_consultar input{
@@ -190,9 +194,33 @@ svg{
     border-color: rgb(0, 0, 0);
     border-style: double;
     background-color: rgb(0, 0, 0);
+    padding-inline: 6em;
     color: aliceblue;
 }
 
+.cono{
+    background-color: aqua;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cono_container{
+    background-color: rgb(109, 60, 60);
+    width: 90%;
+    height: 90%;
+}
+
+.dialogo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    margin: 3%;
+}
 
 footer{
     background-color: rgba(217, 217, 217, 41);
