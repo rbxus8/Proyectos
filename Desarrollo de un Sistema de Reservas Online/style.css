@@ -163,7 +163,7 @@ svg{
 
 .calendario_consultar{
     width: 100%;
-    height: 25vh;
+    height: 20%;
     background-color: rgba(165, 26, 26, 0.759);
     display: flex;
     justify-content: center;
@@ -172,6 +172,7 @@ svg{
     background-size: 100%;
     flex-wrap: wrap;
     color: aliceblue;
+    padding: 1%;
 }
 
 .calendario_consultar input{
@@ -197,7 +198,7 @@ svg{
 
 .cono{
     background-color: rgba(217, 217, 217, 1);
-    height: 130%;
+    height: 50em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,16 +207,16 @@ svg{
 .cono_container{
     background-color: rgba(217, 217, 217, 1);
     width: 80%;
-    height: 60%;
+    height: 70%;
     display: grid;
     grid-template-columns: 1.5fr 0.8fr;
     grid-template-rows: 1fr 1fr;
 }
 
 .dialogo{
-    background-color: rgba(217, 217, 217, 0);
+    background-color: rgb(217, 217, 217);
     grid-column: 1/1;
-    height: 100%;
+    height: 20em;
     display: flex;
     width: 100%;
     align-items: center;
@@ -247,6 +248,7 @@ svg{
     align-items: center;
     display: flex;
     justify-content: center;
+    min-height: 2em;
 }
 
 .list_container{
