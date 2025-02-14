@@ -328,7 +328,7 @@ svg{
 
 /*aqui inicia el codigo del contenedor de servicios*/
 .servicios_pad{
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     background-color: rgba(67, 96, 115, 0.371);
     display: flex;
@@ -421,6 +421,13 @@ svg{
     background-color: black;
     border-radius: 50%;
 }
+.pers_foto img{
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
 .pers_dats{
     height: 50%;
     width: 90%;
@@ -431,8 +438,14 @@ svg{
 }
 .pers_img_princ{
     height: 90%;
-    width: 30%;
-    background-color: blueviolet;
+    width: 20%;
+    background-color: rgba(137, 43, 226, 0.151);
+    border-radius: 2%;
+}
+.pers_img_princ img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
 }
 .pers_datos_princ{
     height: 90%;
