@@ -1,136 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>HOTELS,JULI</title>
-</head>
-<body>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
     <header id="header">
-        <div class="header">
-            <h2>Hotels,juli</h2>
-            <ul>
-                <li>
-                    <a href="">Inicio</a>
-                    <a href="">Acerca de</a>
-                    <a href="">Equipo</a>
-                    <a href="">Galeria</a>
-                    <a href="">Habitaciones</a>
-                </li>
-            </ul>
-            <div>
-                <img style="cursor: pointer;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAl0lEQVR4nGNgGElAhYGB4Q4Ug9hUB5UMDAz/oRjEphpgZ2BgyIO6HGbBbQYGhlyoHEVAhoGB4SKSwej4AgMDgzQlLr+Ix3BkS8jySQERhsMwKAhJBqdJsOAEORZ8I8GCr+RY8J9EPGoBw9ALoqELDpMRPP+h+DCtLThEic/uIhkEYlMdPEay4BEtLPCEWgIy3IMWFgxOAABOn6HK5lYyhAAAAABJRU5ErkJggg==" alt="bell--v1">
-                <img style="width: 25px; cursor: pointer;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC6UlEQVR4nO2ZXWiOYRjHf+ZzxLAkiQOfs1lTlEU5UEI7c4BoDsbJEFpKdkTKjnzswFdKDtd8TU4wiinNwcpnYhxoSGJMiLG9uvR/67byvs/7PrP7Vu+v7qP3vv7P/36f5/64rhty5PjvmAGsB/YC9cBBoBZYCgwhcAYDVcBDIJGiPQOWECiTgNuO2VdAI3AIqFGzN/NEv38FjgCLCIixjsGnQAUw6C9984ADfd5QAzCSADgtQ21AQYT+NphiYAfwVrHn8cxU4CfwAyjLIn4a0KnBrMAjm2XiXAyNPc4n5o0LMrExhsYcaTzHI60yUR5z2f4G9Pqc9O0aSFFMnS7p2ArohccyMDumzhfpjMETN2Ugzk49Xhqf8UiDTKyNobFQGvfxSK1M1MXQ2CmNY3hkuUxcj6FxSRrr8MhKmfiU5fF8GPBRGhV45IZM7EpxUEyFxeyWxjU8klx+szlnJSmTxiM8ckYmLKHKlk3SaMQjG2TihZKnTKlRrGlU4hE7J53VOalLuUZU8pyjiZ2eTcs7d2WoJIOYUsXYPAuGepnan0FMnWKOExDzZcqyvQkRz1fvFbOYwGiSMdtbClP0Gw1cUd9mAmQy8CZColWkPrajTydQ2iIMpNgp1AXLgwgDSeboHQRMu0zOTVNCSqimFSQTleWZySkp+hVoA/2uQQVFKXBPg7gcoX+jsxkuIABKlNl1O7VfK2ino9Cp2lul8hQwjwHGEqhVygp7ZaZHNeBMyjm2n5xUbLKgfQtYDQz9h/4ZAWx1TqsJlXFOpJnc6bBV7Kgzv6y9BLYD+f3o/3cWV6U7j+SD7LPYBozrx+cUAFucuWbttfKVbLLPPxgFXHSEWweoar6sz8VRk7xkxXCgRULvgDUMPJXOJ9eiYkXGHHZ24Fn4Xdo75MVuuzJipi5velQJ9E25vHTrxjgy+/QPXCUcmuXJrrwjc0dB1YRDtbPgROZDmrtyn60z6iDyAzCbSNNsc86RIwfR+AUnligdzeBw0AAAAABJRU5ErkJggg==" alt="user--v1">
-            </div>
+      <div class="header">
+        <h2>Hotels,juli</h2>
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Equipo</a>
+            <a href="#">Galeria</a>
+            <a href="#">Habitaciones</a>
+          </li>
+        </ul>
+        <div class="icons">
+          <img
+            alt="Notificaciones"
+            style="cursor: pointer"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAl0lEQVR4nGNgGElAhYGB4Q4Ug9hUB5UMDAz/oRjEphpgZ2BgyIO6HGbBbQYGhlyoHEVAhoGB4SKSwej4AgMDgzQlLr+Ix3BkS8jySQERhsMwKAhJBqdJsOAEORZ8I8GCr+RY8J9EPGoBw9ALoqELDpMRPP+h+DCtLThEic/uIhkEYlMdPEay4BEtLPCEWgIy3IMWFgxOAABOn6HK5lYyhAAAAABJRU5ErkJggg=="
+          />
+          <img
+            alt="Perfil de usuario"
+            style="width: 25px; cursor: pointer"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC6UlEQVR4nO2ZXWiOYRjHf+ZzxLAkiQOfs1lTlEU5UEI7c4BoDsbJEFpKdkTKjnzswFdKDtd8TU4wiinNwcpnYhxoSGJMiLG9uvR/67byvs/7PrP7Vu+v7qP3vv7P/36f5/64rhty5PjvmAGsB/YC9cBBoBZYCgwhcAYDVcBDIJGiPQOWECiTgNuO2VdAI3AIqFGzN/NEv38FjgCLCIixjsGnQAUw6C9984ADfd5QAzCSADgtQ21AQYT+NphiYAfwVrHn8cxU4CfwAyjLIn4a0KnBrMAjm2XiXAyNPc4n5o0LMrExhsYcaTzHI60yUR5z2f4G9Pqc9O0aSFFMnS7p2ArohccyMDumzhfpjMETN2Ugzk49Xhqf8UiDTKyNobFQGvfxSK1M1MXQ2CmNY3hkuUxcj6FxSRrr8MhKmfiU5fF8GPBRGhV45IZM7EpxUEyFxeyWxjU8klx+szlnJSmTxiM8ckYmLKHKlk3SaMQjG2TihZKnTKlRrGlU4hE7J53VOalLuUZU8pyjiZ2eTcs7d2WoJIOYUsXYPAuGepnan0FMnWKOExDzZcqyvQkRz1fvFbOYwGiSMdtbClP0Gw1cUd9mAmQy8CZColWkPrajTydQ2iIMpNgp1AXLgwgDSeboHQRMu0zOTVNCSqimFSQTleWZySkp+hVoA/2uQQVFKXBPg7gcoX+jsxkuIABKlNl1O7VfK2ino9Cp2lul8hQwjwHGEqhVygp7ZaZHNeBMyjm2n5xUbLKgfQtYDQz9h/4ZAWx1TqsJlXFOpJnc6bBV7Kgzv6y9BLYD+f3o/3cWV6U7j+SD7LPYBozrx+cUAFucuWbttfKVbLLPPxgFXHSEWweoar6sz8VRk7xkxXCgRULvgDUMPJXOJ9eiYkXGHHZ24Fn4Xdo75MVuuzJipi5velQJ9E25vHTrxjgy+/QPXCUcmuXJrrwjc0dB1YRDtbPgROZDmrtyn60z6iDyAzCbSNNsc86RIwfR+AUnligdzeBw0AAAAABJRU5ErkJggg=="
+          />
         </div>
+      </div>
     </header>
-    <div class="container">
-        <div class="cuerpo_principal">
-            <div class="principal">
-                <div class="bienvenido">
-                    <div class="bienvenido_hijo">
-                        <h1>Vive Tu Propia Experiencia</h1>
-                        <h4>Quedate con tus amigos y familiares</h4>
-                    </div>
-                </div>
-                <div class="calendario_consultar">
-                    <div>
-                        <h3>Registro de entrada y salida</h3>
-                        <input type="date" name="" id="">
-                    </div>
-                    <div>
-                        <h3>Huespedes</h3>
-                        <input type="date" name="" id="">
-                    </div>
-                    <button>Consultar</button>
-                </div>
-            </div>
-            <div class="cono">
-                <div class="cono_container">
-                    <div class="dialogo">
-                        <div class="dialogo_cont">
-                            <h1>Reserva con nosotros</h1>
-                            <p>
-                            Quisque eu euismod arcu. Morbi et dapibus diam, sed interdum velit. Proin tempor nunc vel nisl condimentum, nec tempor risus.
-                            Curabitur a fringilla eros. Pellentesque eu interdum nulla. Pellentesque porttitor dui nec leo condimentum, et euismod mi mollis.
-                            </p>
-                            <a href=""><button>Reserva</button></a>
-                        </div>
-                    </div>
-                    <div class="img_mostrar"> 
 
-                    </div>
-                    <div class="img_list">
-                        <div class="list_container">
-                            <div class="item 1">
-                            </div>
-                            <div class="item 2">
-                            </div>
-                            <div class="item 2">
-                            </div>
-                            <div class="item 4">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <main class="container">
+      <div class="cuerpo_principal">
+        <div class="principal">
+          <section class="bienvenido">
+            <div class="bienvenido_hijo">
+              <h1>Vive Tu Propia Experiencia</h1>
+              <h4>Quedate con tus amigos y familiares</h4>
             </div>
-            <div class="servicios_pad">
-                    <h2>Experimenta  una buena estadia, disfruta de fantasticas ofertas</h2>
-                    <h4>ENCUENTRA NUESTRA ACOHEDORA BIENVENIDA</h4>
-                    <div class="serv_cont">
-                        <div class="serv_cont0">
-                            <img src="img/edificio.png" alt="">
-                            <div class="linea_azul"></div>
-                            <h5>Dormitorios a tu gusto</h5>
-                        </div>
-                        <div class="serv_cont0">
-                            <img src="img/comida.png" alt="">
-                            <div class="linea_azul"></div>
-                            <h5>Dormitorios a tu gusto</h5>
-                        </div>
-                        <div class="serv_cont0">
-                            <img src="img/dormitorio.png" alt="">
-                            <div class="linea_azul"></div>
-                            <h5>Dormitorios a tu gusto</h5>
-                        </div>
-                        <div class="serv_cont0">
-                            <img src="img/web.png" alt="">
-                            <div class="linea_azul"></div>
-                            <h5>Dormitorios a tu gusto</h5>
-                        </div>
-                    </div>
+          </section>
+          <section class="calendario_consultar">
+            <div>
+              <h3>Registro de entrada</h3>
+              <input type="date" name="check-in" id="check-in" />
             </div>
-            <div class="personal">
-                <h2>Conozca A Nuestro Equipo De Trabajo</h2>
-                <div class="pers">
-                    <div class="pers_foto"></div>
-                    <div class="pers_foto"></div>
-                    <div class="pers_foto"></div>
-                    <div class="pers_foto"></div>
-                    <div class="pers_foto"></div>
-                </div>
-                <div class="pers_dats">
-                    <div class="pers_img_princ"></div>
-                    <div class="pers_datos_princ"></div>
-                </div>
+            <div>
+              <h3>Registro de salida</h3>
+              <input type="date" name="" id="" />
             </div>
-            <div class="testimonio">
-
-            </div>
-            <div class="cont_habitaciones">
-                <div class="habitaciones">
-                    <div class="hab_item"></div>
-                    <div class="hab_item"></div>
-                    <div class="hab_item"></div>
-                    <div class="hab_item"></div>
-                </div>
-            </div>
+            <button>Consultar</button>
+          </section>
         </div>
-    </div>
-    <footer>
 
-    </footer>
-</body>
+        <section class="servicios_pad">
+          <h2>
+            Experimenta una buena estadia, disfruta de fantasticas ofertas
+          </h2>
+          <h4>ENCUENTRA NUESTRA ACOHEDORA BIENVENIDA</h4>
+          <div class="serv_cont">
+            <div class="serv_cont0">
+              <img src="img/edificio.png" alt="" />
+              <div class="linea_azul"></div>
+              <h5>Dormitorios a tu gusto</h5>
+            </div>
+            <div class="serv_cont0">
+              <img src="img/comida.png" alt="" />
+              <div class="linea_azul"></div>
+              <h5>Dormitorios a tu gusto</h5>
+            </div>
+            <div class="serv_cont0">
+              <img src="img/dormitorio.png" alt="" />
+              <div class="linea_azul"></div>
+              <h5>Dormitorios a tu gusto</h5>
+            </div>
+            <div class="serv_cont0">
+              <img src="img/web.png" alt="" />
+              <div class="linea_azul"></div>
+              <h5>Dormitorios a tu gusto</h5>
+            </div>
+          </div>
+        </section>
+
+        <section class="cono">
+          <div class="cono_container">
+            <div class="dialogo">
+              <div class="dialogo_cont">
+                <h1>Reserva con nosotros</h1>
+                <p>
+                  Quisque eu euismod arcu. Morbi et dapibus diam, sed interdum
+                  velit. Proin tempor nunc vel nisl condimentum, nec tempor
+                  risus. Curabitur a fringilla eros. Pellentesque eu interdum
+                  nulla. Pellentesque porttitor dui nec leo condimentum, et
+                  euismod mi mollis.
+                </p>
+                <a href=""><button>Reserva</button></a>
+              </div>
+            </div>
+            <div class="img_mostrar"></div>
+            <div class="img_list">
+              <div class="list_container">
+                <div class="item 1"></div>
+                <div class="item 2"></div>
+                <div class="item 2"></div>
+                <div class="item 4"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="personal">
+          <h2>Conozca A Nuestro Equipo De Trabajo</h2>
+          <div class="pers">
+            <div class="pers_foto">
+              <img src="img/pers1.jpg" alt="Foto 1" />
+            </div>
+            <div class="pers_foto">
+              <img src="img/pers2.jpg" alt="Foto 2" />
+            </div>
+            <div class="pers_foto">
+              <img src="img/pers1.jpg" alt="Foto 3" />
+            </div>
+            <div class="pers_foto">
+              <img src="img/pers2.jpg" alt="Foto 4" />
+            </div>
+            <div class="pers_foto">
+              <img src="img/pers1.jpg" alt="Foto 5" />
+            </div>
+          </div>
+          <div class="pers_dats">
+            <div class="pers_img_princ">
+              <img
+                id="imagen_principal"
+                src="imagen1.jpg"
+                alt="Imagen Principal"
+              />
+            </div>
+            <div class="pers_datos_princ"></div>
+          </div>
+        </section>
+
+        <section class="testimonio"></section>
+
+        <section class="cont_habitaciones">
+          <div class="habitaciones">
+            <div class="hab_item"></div>
+            <div class="hab_item"></div>
+            <div class="hab_item"></div>
+            <div class="hab_item"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>
