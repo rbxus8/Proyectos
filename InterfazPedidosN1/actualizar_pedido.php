@@ -23,7 +23,7 @@ if (isset($_POST['productos'])) {
         $stmt->execute();
     }
 }
-
+//fdgdf
 // Actualizar el estado del pedido si se cambia
 if (isset($_POST['estado'])) {
     $estado = $_POST['estado'];
