@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nmartinez.LBOGTEG8W6K5Q1.000\\source\\repos\\ARBOL_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64FEACB9-B3C9-4870-B9AB-7224819B26E5}|ARBOL_3.csproj|c:\\users\\nmartinez.lbogteg8w6k5q1.000\\source\\repos\\arbol_4\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FEACB9-B3C9-4870-B9AB-7224819B26E5}|ARBOL_3.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FEACB9-B3C9-4870-B9AB-7224819B26E5}|ARBOL_3.csproj|c:\\users\\nmartinez.lbogteg8w6k5q1.000\\source\\repos\\arbol_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64FEACB9-B3C9-4870-B9AB-7224819B26E5}|ARBOL_3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FEACB9-B3C9-4870-B9AB-7224819B26E5}|ARBOL_3.csproj|c:\\users\\nmartinez.lbogteg8w6k5q1.000\\source\\repos\\arbol_4\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FEACB9-B3C9-4870-B9AB-7224819B26E5}|ARBOL_3.csproj|solutionrelative:nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\nmartinez.LBOGTEG8W6K5Q1.000\\source\\repos\\ARBOL_4\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\nmartinez.LBOGTEG8W6K5Q1.000\\source\\repos\\ARBOL_4\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:00:45.54Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nmartinez.LBOGTEG8W6K5Q1.000\\source\\repos\\ARBOL_4\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\nmartinez.LBOGTEG8W6K5Q1.000\\source\\repos\\ARBOL_4\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:27:09.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\nmartinez.LBOGTEG8W6K5Q1.000\\source\\repos\\ARBOL_4\\Nodo.cs",
+              "RelativeDocumentMoniker": "Nodo.cs",
+              "ToolTip": "C:\\Users\\nmartinez.LBOGTEG8W6K5Q1.000\\source\\repos\\ARBOL_4\\Nodo.cs",
+              "RelativeToolTip": "Nodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T23:36:54.538Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ARBOL_3/1.0.0": {
+        "runtime": {
+          "ARBOL_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ARBOL_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
